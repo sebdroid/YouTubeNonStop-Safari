@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7206EA622A28550005705D4 /* YouTubeNonStop.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = D7206EA522A28550005705D4 /* YouTubeNonStop.entitlements */; };
+		D7206EA822A28550005705D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7206EA722A28550005705D4 /* AppDelegate.swift */; };
+		D7206EAB22A28550005705D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7206EA922A28550005705D4 /* Main.storyboard */; };
+		D7206EAD22A28551005705D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7206EAC22A28551005705D4 /* ViewController.swift */; };
+		D7206EAF22A28553005705D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7206EAE22A28553005705D4 /* Assets.xcassets */; };
+		D7206EB622A28553005705D4 /* YouTubeNonStop Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7206EB522A28553005705D4 /* YouTubeNonStop Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7206EBB22A28553005705D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7206EBA22A28553005705D4 /* Cocoa.framework */; };
+		D7206EBE22A28553005705D4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7206EBD22A28553005705D4 /* SafariExtensionHandler.swift */; };
+		D7206EC022A28553005705D4 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7206EBF22A28553005705D4 /* SafariExtensionViewController.swift */; };
+		D7206EC322A28553005705D4 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7206EC122A28553005705D4 /* SafariExtensionViewController.xib */; };
+		D7206EC622A28553005705D4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D7206EC522A28553005705D4 /* script.js */; };
+		D7206EC822A28553005705D4 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D7206EC722A28553005705D4 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7206EB722A28553005705D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7206E9A22A28550005705D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7206EB422A28553005705D4;
+			remoteInfo = "YouTubeNonStop Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7206ECF22A28553005705D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7206EB622A28553005705D4 /* YouTubeNonStop Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7206EA222A28550005705D4 /* YouTubeNonStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeNonStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7206EA522A28550005705D4 /* YouTubeNonStop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeNonStop.entitlements; sourceTree = "<group>"; };
+		D7206EA722A28550005705D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7206EAA22A28550005705D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7206EAC22A28551005705D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7206EAE22A28553005705D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7206EB022A28553005705D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7206EB522A28553005705D4 /* YouTubeNonStop Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTubeNonStop Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7206EBA22A28553005705D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D7206EBD22A28553005705D4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		D7206EBF22A28553005705D4 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		D7206EC222A28553005705D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		D7206EC422A28553005705D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7206EC522A28553005705D4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		D7206EC722A28553005705D4 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		D7206EC922A28553005705D4 /* YouTubeNonStop_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeNonStop_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7206E9F22A28550005705D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7206EB222A28553005705D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7206EBB22A28553005705D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7206E9922A28550005705D4 = {
+			isa = PBXGroup;
+			children = (
+				D7206EA422A28550005705D4 /* YouTubeNonStop */,
+				D7206EBC22A28553005705D4 /* YouTubeNonStop Extension */,
+				D7206EB922A28553005705D4 /* Frameworks */,
+				D7206EA322A28550005705D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7206EA322A28550005705D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7206EA222A28550005705D4 /* YouTubeNonStop.app */,
+				D7206EB522A28553005705D4 /* YouTubeNonStop Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7206EA422A28550005705D4 /* YouTubeNonStop */ = {
+			isa = PBXGroup;
+			children = (
+				D7206EA522A28550005705D4 /* YouTubeNonStop.entitlements */,
+				D7206EA722A28550005705D4 /* AppDelegate.swift */,
+				D7206EA922A28550005705D4 /* Main.storyboard */,
+				D7206EAC22A28551005705D4 /* ViewController.swift */,
+				D7206EAE22A28553005705D4 /* Assets.xcassets */,
+				D7206EB022A28553005705D4 /* Info.plist */,
+			);
+			path = YouTubeNonStop;
+			sourceTree = "<group>";
+		};
+		D7206EB922A28553005705D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7206EBA22A28553005705D4 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7206EBC22A28553005705D4 /* YouTubeNonStop Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D7206EBD22A28553005705D4 /* SafariExtensionHandler.swift */,
+				D7206EBF22A28553005705D4 /* SafariExtensionViewController.swift */,
+				D7206EC122A28553005705D4 /* SafariExtensionViewController.xib */,
+				D7206EC422A28553005705D4 /* Info.plist */,
+				D7206EC522A28553005705D4 /* script.js */,
+				D7206EC722A28553005705D4 /* ToolbarItemIcon.pdf */,
+				D7206EC922A28553005705D4 /* YouTubeNonStop_Extension.entitlements */,
+			);
+			path = "YouTubeNonStop Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7206EA122A28550005705D4 /* YouTubeNonStop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7206ED022A28553005705D4 /* Build configuration list for PBXNativeTarget "YouTubeNonStop" */;
+			buildPhases = (
+				D7206E9E22A28550005705D4 /* Sources */,
+				D7206E9F22A28550005705D4 /* Frameworks */,
+				D7206EA022A28550005705D4 /* Resources */,
+				D7206ECF22A28553005705D4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7206EB822A28553005705D4 /* PBXTargetDependency */,
+			);
+			name = YouTubeNonStop;
+			productName = YouTubeNonStop;
+			productReference = D7206EA222A28550005705D4 /* YouTubeNonStop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7206EB422A28553005705D4 /* YouTubeNonStop Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7206ECC22A28553005705D4 /* Build configuration list for PBXNativeTarget "YouTubeNonStop Extension" */;
+			buildPhases = (
+				D7206EB122A28553005705D4 /* Sources */,
+				D7206EB222A28553005705D4 /* Frameworks */,
+				D7206EB322A28553005705D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouTubeNonStop Extension";
+			productName = "YouTubeNonStop Extension";
+			productReference = D7206EB522A28553005705D4 /* YouTubeNonStop Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7206E9A22A28550005705D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sebastian Jose";
+				TargetAttributes = {
+					D7206EA122A28550005705D4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D7206EB422A28553005705D4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D7206E9D22A28550005705D4 /* Build configuration list for PBXProject "YouTubeNonStop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7206E9922A28550005705D4;
+			productRefGroup = D7206EA322A28550005705D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7206EA122A28550005705D4 /* YouTubeNonStop */,
+				D7206EB422A28553005705D4 /* YouTubeNonStop Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7206EA022A28550005705D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7206EA622A28550005705D4 /* YouTubeNonStop.entitlements in Resources */,
+				D7206EAF22A28553005705D4 /* Assets.xcassets in Resources */,
+				D7206EAB22A28550005705D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7206EB322A28553005705D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7206EC822A28553005705D4 /* ToolbarItemIcon.pdf in Resources */,
+				D7206EC322A28553005705D4 /* SafariExtensionViewController.xib in Resources */,
+				D7206EC622A28553005705D4 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7206E9E22A28550005705D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7206EAD22A28551005705D4 /* ViewController.swift in Sources */,
+				D7206EA822A28550005705D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7206EB122A28553005705D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7206EC022A28553005705D4 /* SafariExtensionViewController.swift in Sources */,
+				D7206EBE22A28553005705D4 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7206EB822A28553005705D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7206EB422A28553005705D4 /* YouTubeNonStop Extension */;
+			targetProxy = D7206EB722A28553005705D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7206EA922A28550005705D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7206EAA22A28550005705D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7206EC122A28553005705D4 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7206EC222A28553005705D4 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7206ECA22A28553005705D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7206ECB22A28553005705D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D7206ECD22A28553005705D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "YouTubeNonStop Extension/YouTubeNonStop_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U542JZ77V;
+				INFOPLIST_FILE = "YouTubeNonStop Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "se.sebjo.YouTubeNonStop-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7206ECE22A28553005705D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "YouTubeNonStop Extension/YouTubeNonStop_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U542JZ77V;
+				INFOPLIST_FILE = "YouTubeNonStop Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "se.sebjo.YouTubeNonStop-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7206ED122A28553005705D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YouTubeNonStop/YouTubeNonStop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4U542JZ77V;
+				INFOPLIST_FILE = YouTubeNonStop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.sebjo.YouTubeNonStop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7206ED222A28553005705D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YouTubeNonStop/YouTubeNonStop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4U542JZ77V;
+				INFOPLIST_FILE = YouTubeNonStop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.sebjo.YouTubeNonStop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7206E9D22A28550005705D4 /* Build configuration list for PBXProject "YouTubeNonStop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7206ECA22A28553005705D4 /* Debug */,
+				D7206ECB22A28553005705D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7206ECC22A28553005705D4 /* Build configuration list for PBXNativeTarget "YouTubeNonStop Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7206ECD22A28553005705D4 /* Debug */,
+				D7206ECE22A28553005705D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7206ED022A28553005705D4 /* Build configuration list for PBXNativeTarget "YouTubeNonStop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7206ED122A28553005705D4 /* Debug */,
+				D7206ED222A28553005705D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7206E9A22A28550005705D4 /* Project object */;
+}
