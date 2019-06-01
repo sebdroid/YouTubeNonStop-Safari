@@ -1,7 +1,7 @@
 # YouTubeNonStop-Safari
 ![YouTubeNonStop-Safari Logo](https://github.com/sebdroid/YouTubeNonStop-Safari/blob/master/YouTubeNonStop/Assets.xcassets/AppIcon.appiconset/yt_icon_rgb-128.png)
 
-Autoclicker on Safari for the "Video paused. Continue watching?" prompt on YouTube.
+> Autoclicker on Safari for the "Video paused. Continue watching?" prompt on YouTube.
 
 ---
 
