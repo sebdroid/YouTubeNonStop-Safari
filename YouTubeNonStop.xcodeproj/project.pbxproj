@@ -17,7 +17,6 @@
 		D7206EBE22A28553005705D4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7206EBD22A28553005705D4 /* SafariExtensionHandler.swift */; };
 		D7206EC622A28553005705D4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D7206EC522A28553005705D4 /* script.js */; };
 		D7206ED422A2AD5D005705D4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D7206ED322A2AD5D005705D4 /* Credits.rtf */; };
-		D7206ED622A2B510005705D4 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = D7206ED522A2B510005705D4 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +58,6 @@
 		D7206EC522A28553005705D4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		D7206EC922A28553005705D4 /* YouTubeNonStop_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeNonStop_Extension.entitlements; sourceTree = "<group>"; };
 		D7206ED322A2AD5D005705D4 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
-		D7206ED522A2B510005705D4 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +101,6 @@
 		D7206EA422A28550005705D4 /* YouTubeNonStop */ = {
 			isa = PBXGroup;
 			children = (
-				D7206ED522A2B510005705D4 /* AppIcon.appiconset */,
 				D7206EA522A28550005705D4 /* YouTubeNonStop.entitlements */,
 				D7206EA722A28550005705D4 /* AppDelegate.swift */,
 				D7206EA922A28550005705D4 /* Main.storyboard */,
@@ -218,7 +215,6 @@
 				D7206EA622A28550005705D4 /* YouTubeNonStop.entitlements in Resources */,
 				D7206EAF22A28553005705D4 /* Assets.xcassets in Resources */,
 				D7206EAB22A28550005705D4 /* Main.storyboard in Resources */,
-				D7206ED622A2B510005705D4 /* AppIcon.appiconset in Resources */,
 				D7206ED422A2AD5D005705D4 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
