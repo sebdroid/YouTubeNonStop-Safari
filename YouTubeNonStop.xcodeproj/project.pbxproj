@@ -15,10 +15,9 @@
 		D7206EB622A28553005705D4 /* YouTubeNonStop Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7206EB522A28553005705D4 /* YouTubeNonStop Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D7206EBB22A28553005705D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7206EBA22A28553005705D4 /* Cocoa.framework */; };
 		D7206EBE22A28553005705D4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7206EBD22A28553005705D4 /* SafariExtensionHandler.swift */; };
-		D7206EC022A28553005705D4 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7206EBF22A28553005705D4 /* SafariExtensionViewController.swift */; };
-		D7206EC322A28553005705D4 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7206EC122A28553005705D4 /* SafariExtensionViewController.xib */; };
 		D7206EC622A28553005705D4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D7206EC522A28553005705D4 /* script.js */; };
-		D7206EC822A28553005705D4 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D7206EC722A28553005705D4 /* ToolbarItemIcon.pdf */; };
+		D7206ED422A2AD5D005705D4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D7206ED322A2AD5D005705D4 /* Credits.rtf */; };
+		D7206ED622A2B510005705D4 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = D7206ED522A2B510005705D4 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +55,11 @@
 		D7206EB522A28553005705D4 /* YouTubeNonStop Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTubeNonStop Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7206EBA22A28553005705D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D7206EBD22A28553005705D4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
-		D7206EBF22A28553005705D4 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
-		D7206EC222A28553005705D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		D7206EC422A28553005705D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7206EC522A28553005705D4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		D7206EC722A28553005705D4 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		D7206EC922A28553005705D4 /* YouTubeNonStop_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeNonStop_Extension.entitlements; sourceTree = "<group>"; };
+		D7206ED322A2AD5D005705D4 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		D7206ED522A2B510005705D4 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +103,13 @@
 		D7206EA422A28550005705D4 /* YouTubeNonStop */ = {
 			isa = PBXGroup;
 			children = (
+				D7206ED522A2B510005705D4 /* AppIcon.appiconset */,
 				D7206EA522A28550005705D4 /* YouTubeNonStop.entitlements */,
 				D7206EA722A28550005705D4 /* AppDelegate.swift */,
 				D7206EA922A28550005705D4 /* Main.storyboard */,
 				D7206EAC22A28551005705D4 /* ViewController.swift */,
 				D7206EAE22A28553005705D4 /* Assets.xcassets */,
+				D7206ED322A2AD5D005705D4 /* Credits.rtf */,
 				D7206EB022A28553005705D4 /* Info.plist */,
 			);
 			path = YouTubeNonStop;
@@ -127,11 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				D7206EBD22A28553005705D4 /* SafariExtensionHandler.swift */,
-				D7206EBF22A28553005705D4 /* SafariExtensionViewController.swift */,
-				D7206EC122A28553005705D4 /* SafariExtensionViewController.xib */,
 				D7206EC422A28553005705D4 /* Info.plist */,
 				D7206EC522A28553005705D4 /* script.js */,
-				D7206EC722A28553005705D4 /* ToolbarItemIcon.pdf */,
 				D7206EC922A28553005705D4 /* YouTubeNonStop_Extension.entitlements */,
 			);
 			path = "YouTubeNonStop Extension";
@@ -221,6 +218,8 @@
 				D7206EA622A28550005705D4 /* YouTubeNonStop.entitlements in Resources */,
 				D7206EAF22A28553005705D4 /* Assets.xcassets in Resources */,
 				D7206EAB22A28550005705D4 /* Main.storyboard in Resources */,
+				D7206ED622A2B510005705D4 /* AppIcon.appiconset in Resources */,
+				D7206ED422A2AD5D005705D4 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,8 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7206EC822A28553005705D4 /* ToolbarItemIcon.pdf in Resources */,
-				D7206EC322A28553005705D4 /* SafariExtensionViewController.xib in Resources */,
 				D7206EC622A28553005705D4 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7206EC022A28553005705D4 /* SafariExtensionViewController.swift in Sources */,
 				D7206EBE22A28553005705D4 /* SafariExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,14 +268,6 @@
 				D7206EAA22A28550005705D4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D7206EC122A28553005705D4 /* SafariExtensionViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7206EC222A28553005705D4 /* Base */,
-			);
-			name = SafariExtensionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
