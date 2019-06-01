@@ -8,7 +8,7 @@ Autoclicker on Safari for the "Video paused. Continue watching?" prompt on YouTu
 Not yet published to the Mac App Store due to needing a developer license. Will be published as soon as I can afford one.
 
 
-Thanks to Nikolaos Ioannou for the [original code](https://github.com/lawfx/YoutubeNonStop) for the project.
+Thanks to Nikolaos Ioannou(@lawfx) for the [original code](https://github.com/lawfx/YoutubeNonStop) for the project.
 
 ---
 
